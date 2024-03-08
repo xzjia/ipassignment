@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: ip-config-hard
+  annotations:
+    config.kubernetes.io/local-config: "true"
+    kpt.dev/config-injection: required
+data:
+  switch-name: one-two-three.example.com
+  interface-id: eth1
+  ip-address: "1.1.1.1"
+  subnet-mask: "255.255.255.0"
+  vlan-id: "1111"
+
