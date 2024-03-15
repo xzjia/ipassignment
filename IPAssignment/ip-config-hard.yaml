@@ -2,7 +2,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: ip-config-hard
-  namespace: ipassignment
+  namespace: example
   annotations:
     config.kubernetes.io/local-config: "true"
     kpt.dev/config-injection: required
