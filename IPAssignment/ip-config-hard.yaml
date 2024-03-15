@@ -4,7 +4,6 @@ metadata:
   name: ip-config-hard
   namespace: example
   annotations:
-    config.kubernetes.io/local-config: "true"
     kpt.dev/config-injection: required
 data:
   switch-name: one-two-three.example.com
