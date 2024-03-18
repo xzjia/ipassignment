@@ -8,7 +8,7 @@ metadata:
 data:
   switch-name: one-two-three.example.com
   interface-id: eth1
-  ip-address: "1.1.1.1"
+  ip-address: "2.2.2.2"
   subnet-mask: "255.255.255.0"
   vlan-id: "1111"
 

@@ -1,7 +1,7 @@
 apiVersion: workload.nephio.org/v1alpha1
 kind: NFDeployment
 metadata:
-  name: apic
+  name: apic-updated-value
   namespace: example
 spec:
   provider: apic.cisco.com
